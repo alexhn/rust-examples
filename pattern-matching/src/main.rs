@@ -24,6 +24,18 @@ fn main() {
        7 => println!("seven"),
        _ => println!("else"),
    }
+
+   let some_u8_value2 = Some(0u8);
+
+   match some_u8_value2 {
+       Some(3) => println!("three"),
+        _ => (),
+   }
+
+   if let Some (3) = some_u8_value2 {
+       println!("three");
+   }
+
 }
 
 fn value_in_cents(coin: Coin) -> u32 {
