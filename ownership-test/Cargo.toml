@@ -1,0 +1,7 @@
+[package]
+name = "ownership-test"
+version = "0.1.0"
+authors = ["alex <alex@alexn.ee>"]
+edition = "2018"
+
+[dependencies]
