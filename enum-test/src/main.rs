@@ -59,6 +59,13 @@ fn main() {
     let m = Message::Write(String::from("hey"));
     m.call();
 
+
+    let some_number = Some(5);
+
+    let some_string = Some("a string");
+
+    let absent_number: Option<i32> = None;
+
 }
 
 fn route(ip_type: IpAddrKind) {
